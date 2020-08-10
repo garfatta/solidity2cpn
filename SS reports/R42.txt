@@ -1,0 +1,1176 @@
+
+
+
+ Statistics
+------------------------------------------------------------------------
+
+  State Space
+     Nodes:  1424
+     Arcs:   1545
+     Secs:   0
+     Status: Full
+
+  Scc Graph
+     Nodes:  1424
+     Arcs:   1545
+     Secs:   0
+
+
+ Boundedness Properties
+------------------------------------------------------------------------
+
+  Best Integer Bounds
+                             Upper      Lower
+     Complete_System'ABB 1   1          0
+     Complete_System'B1 1    1          0
+     Complete_System'Bidders 1
+                             1          0
+     Complete_System'Bidders2 1
+                             1          0
+     Complete_System'F 1     1          0
+     Complete_System'Last_Bids_Log 1
+                             1          1
+     Complete_System'P01 1   1          0
+     Complete_System'P02 1   1          0
+     Complete_System'P11 1   1          0
+     Complete_System'P12 1   1          0
+     Complete_System'P21 1   1          0
+     Complete_System'P22 1   1          0
+     Complete_System'Possible_Bids 1
+                             2          2
+     Complete_System'Possible_Deposits 1
+                             2          2
+     Complete_System'Possible_Secret_Keys 1
+                             2          2
+     Complete_System'R1 1    1          0
+     Complete_System'R2 1    1          0
+     Complete_System'RB 1    1          0
+     Complete_System'T 1     1          0
+     Complete_System'W1 1    1          0
+     Complete_System'W2 1    1          0
+     Complete_System'bid_Parameters 1
+                             1          0
+     Complete_System'reveal_Parameters 1
+                             1          0
+     Complete_System'withdraw_Parameters 1
+                             1          0
+     bid'p1 1                1          0
+     reveal'T 1              1          0
+     reveal'T2 1             1          0
+     reveal'bid 1            2          0
+     reveal'c 1              1          0
+     reveal'i 1              1          0
+     reveal'init 1           1          0
+     reveal'p1 1             1          0
+     reveal'p11 1            1          0
+     reveal'p12 1            1          0
+     reveal'p21 1            1          0
+     reveal'vs 1             2          0
+     withdraw'F2 1           1          0
+     withdraw'T 1            1          0
+     withdraw'T2 1           1          0
+     withdraw'amount 1       1          0
+     withdraw'p1 1           1          0
+     withdraw'p11 1          1          0
+     withdraw'p2 1           1          0
+
+  Best Upper Multi-set Bounds
+     Complete_System'ABB 1
+                         1`{contractBalance=0,receivedBids=[{bidder=1,bids=[],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0}
+     Complete_System'B1 1
+                         1`{bidder=1,blindBid=2,deposit=1,revealedBid=1,secret=1}++
+1`{bidder=1,blindBid=2,deposit=2,revealedBid=1,secret=1}++
+1`{bidder=1,blindBid=3,deposit=1,revealedBid=1,secret=2}++
+1`{bidder=1,blindBid=3,deposit=1,revealedBid=2,secret=1}++
+1`{bidder=1,blindBid=3,deposit=2,revealedBid=1,secret=2}++
+1`{bidder=1,blindBid=3,deposit=2,revealedBid=2,secret=1}++
+1`{bidder=1,blindBid=4,deposit=1,revealedBid=2,secret=2}++
+1`{bidder=1,blindBid=4,deposit=2,revealedBid=2,secret=2}
+     Complete_System'Bidders 1
+                         1`{bidder=1,balance=96,blindBids=[3,2],deposits=[2,2],revealedBids=[2,1],secrets=[1,1]}++
+1`{bidder=1,balance=96,blindBids=[3,3],deposits=[2,2],revealedBids=[2,1],secrets=[1,2]}++
+1`{bidder=1,balance=96,blindBids=[4,2],deposits=[2,2],revealedBids=[2,1],secrets=[2,1]}++
+1`{bidder=1,balance=96,blindBids=[4,3],deposits=[2,2],revealedBids=[2,1],secrets=[2,2]}++
+1`{bidder=1,balance=97,blindBids=[3,2],deposits=[1,2],revealedBids=[2,1],secrets=[1,1]}++
+1`{bidder=1,balance=97,blindBids=[3,2],deposits=[2,1],revealedBids=[2,1],secrets=[1,1]}++
+1`{bidder=1,balance=97,blindBids=[3,3],deposits=[1,2],revealedBids=[2,1],secrets=[1,2]}++
+1`{bidder=1,balance=97,blindBids=[3,3],deposits=[2,1],revealedBids=[2,1],secrets=[1,2]}++
+1`{bidder=1,balance=97,blindBids=[4,2],deposits=[1,2],revealedBids=[2,1],secrets=[2,1]}++
+1`{bidder=1,balance=97,blindBids=[4,2],deposits=[2,1],revealedBids=[2,1],secrets=[2,1]}++
+1`{bidder=1,balance=97,blindBids=[4,3],deposits=[1,2],revealedBids=[2,1],secrets=[2,2]}++
+1`{bidder=1,balance=97,blindBids=[4,3],deposits=[2,1],revealedBids=[2,1],secrets=[2,2]}++
+1`{bidder=1,balance=98,blindBids=[2],deposits=[2],revealedBids=[1],secrets=[1]}++
+1`{bidder=1,balance=98,blindBids=[3],deposits=[2],revealedBids=[1],secrets=[2]}++
+1`{bidder=1,balance=98,blindBids=[3],deposits=[2],revealedBids=[2],secrets=[1]}++
+1`{bidder=1,balance=98,blindBids=[3,2],deposits=[1,1],revealedBids=[2,1],secrets=[1,1]}++
+1`{bidder=1,balance=98,blindBids=[3,3],deposits=[1,1],revealedBids=[2,1],secrets=[1,2]}++
+1`{bidder=1,balance=98,blindBids=[4],deposits=[2],revealedBids=[2],secrets=[2]}++
+1`{bidder=1,balance=98,blindBids=[4,2],deposits=[1,1],revealedBids=[2,1],secrets=[2,1]}++
+1`{bidder=1,balance=98,blindBids=[4,3],deposits=[1,1],revealedBids=[2,1],secrets=[2,2]}++
+1`{bidder=1,balance=99,blindBids=[2],deposits=[1],revealedBids=[1],secrets=[1]}++
+1`{bidder=1,balance=99,blindBids=[3],deposits=[1],revealedBids=[1],secrets=[2]}++
+1`{bidder=1,balance=99,blindBids=[3],deposits=[1],revealedBids=[2],secrets=[1]}++
+1`{bidder=1,balance=99,blindBids=[4],deposits=[1],revealedBids=[2],secrets=[2]}++
+1`{bidder=1,balance=100,blindBids=[],deposits=[],revealedBids=[],secrets=[]}
+     Complete_System'Bidders2 1
+                         1`{bidder=1,balance=98,blindBids=[2],deposits=[2],revealedBids=[1],secrets=[1]}++
+1`{bidder=1,balance=98,blindBids=[3],deposits=[2],revealedBids=[1],secrets=[2]}++
+1`{bidder=1,balance=99,blindBids=[2],deposits=[1],revealedBids=[1],secrets=[1]}++
+1`{bidder=1,balance=99,blindBids=[3],deposits=[1],revealedBids=[1],secrets=[2]}++
+1`{bidder=1,balance=100,blindBids=[],deposits=[],revealedBids=[],secrets=[]}
+     Complete_System'F 1 1`{contractBalance=0,receivedBids=[{bidder=1,bids=[],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=1}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=1}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2}
+     Complete_System'Last_Bids_Log 1
+                         1`{bidder=1,bidValue=0}++
+1`{bidder=1,bidValue=1}++
+1`{bidder=1,bidValue=2}
+     Complete_System'P01 1
+                         1`()
+     Complete_System'P02 1
+                         1`{adr=1,balance=96}++
+1`{adr=1,balance=97}++
+1`{adr=1,balance=98}++
+1`{adr=1,balance=99}
+     Complete_System'P11 1
+                         1`()
+     Complete_System'P12 1
+                         1`{adr=1,balance=96}++
+1`{adr=1,balance=97}++
+1`{adr=1,balance=98}++
+1`{adr=1,balance=99}
+     Complete_System'P21 1
+                         1`()
+     Complete_System'P22 1
+                         1`{adr=1,balance=96}++
+1`{adr=1,balance=97}++
+1`{adr=1,balance=98}++
+1`{adr=1,balance=99}
+     Complete_System'Possible_Bids 1
+                         1`1++
+1`2
+     Complete_System'Possible_Deposits 1
+                         1`1++
+1`2
+     Complete_System'Possible_Secret_Keys 1
+                         1`1++
+1`2
+     Complete_System'R1 1
+                         1`{bidder=1,balance=96,blindBids=[3,2],deposits=[2,2],revealedBids=[2,1],secrets=[1,1]}++
+1`{bidder=1,balance=96,blindBids=[3,3],deposits=[2,2],revealedBids=[2,1],secrets=[1,2]}++
+1`{bidder=1,balance=96,blindBids=[4,2],deposits=[2,2],revealedBids=[2,1],secrets=[2,1]}++
+1`{bidder=1,balance=96,blindBids=[4,3],deposits=[2,2],revealedBids=[2,1],secrets=[2,2]}++
+1`{bidder=1,balance=97,blindBids=[3,2],deposits=[1,2],revealedBids=[2,1],secrets=[1,1]}++
+1`{bidder=1,balance=97,blindBids=[3,2],deposits=[2,1],revealedBids=[2,1],secrets=[1,1]}++
+1`{bidder=1,balance=97,blindBids=[3,3],deposits=[1,2],revealedBids=[2,1],secrets=[1,2]}++
+1`{bidder=1,balance=97,blindBids=[3,3],deposits=[2,1],revealedBids=[2,1],secrets=[1,2]}++
+1`{bidder=1,balance=97,blindBids=[4,2],deposits=[1,2],revealedBids=[2,1],secrets=[2,1]}++
+1`{bidder=1,balance=97,blindBids=[4,2],deposits=[2,1],revealedBids=[2,1],secrets=[2,1]}++
+1`{bidder=1,balance=97,blindBids=[4,3],deposits=[1,2],revealedBids=[2,1],secrets=[2,2]}++
+1`{bidder=1,balance=97,blindBids=[4,3],deposits=[2,1],revealedBids=[2,1],secrets=[2,2]}++
+1`{bidder=1,balance=98,blindBids=[2],deposits=[2],revealedBids=[1],secrets=[1]}++
+1`{bidder=1,balance=98,blindBids=[3],deposits=[2],revealedBids=[1],secrets=[2]}++
+1`{bidder=1,balance=98,blindBids=[3],deposits=[2],revealedBids=[2],secrets=[1]}++
+1`{bidder=1,balance=98,blindBids=[3,2],deposits=[1,1],revealedBids=[2,1],secrets=[1,1]}++
+1`{bidder=1,balance=98,blindBids=[3,3],deposits=[1,1],revealedBids=[2,1],secrets=[1,2]}++
+1`{bidder=1,balance=98,blindBids=[4],deposits=[2],revealedBids=[2],secrets=[2]}++
+1`{bidder=1,balance=98,blindBids=[4,2],deposits=[1,1],revealedBids=[2,1],secrets=[2,1]}++
+1`{bidder=1,balance=98,blindBids=[4,3],deposits=[1,1],revealedBids=[2,1],secrets=[2,2]}++
+1`{bidder=1,balance=99,blindBids=[2],deposits=[1],revealedBids=[1],secrets=[1]}++
+1`{bidder=1,balance=99,blindBids=[3],deposits=[1],revealedBids=[1],secrets=[2]}++
+1`{bidder=1,balance=99,blindBids=[3],deposits=[1],revealedBids=[2],secrets=[1]}++
+1`{bidder=1,balance=99,blindBids=[4],deposits=[1],revealedBids=[2],secrets=[2]}
+     Complete_System'R2 1
+                         1`{bidder=1,balance=96,blindBids=[],deposits=[],revealedBids=[],secrets=[]}++
+1`{bidder=1,balance=97,blindBids=[],deposits=[],revealedBids=[],secrets=[]}++
+1`{bidder=1,balance=98,blindBids=[],deposits=[],revealedBids=[],secrets=[]}++
+1`{bidder=1,balance=99,blindBids=[],deposits=[],revealedBids=[],secrets=[]}
+     Complete_System'RB 1
+                         1`{contractBalance=0,receivedBids=[{bidder=1,bids=[],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=1}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=1}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=2}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2}
+     Complete_System'T 1 1`{contractBalance=0,receivedBids=[{bidder=1,bids=[],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=1}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=1,highestBid=2}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}++
+1`{contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=0}],highestBidder=0,highestBid=0}
+     Complete_System'W1 1
+                         1`{bidder=1,balance=96,blindBids=[],deposits=[],revealedBids=[],secrets=[]}++
+1`{bidder=1,balance=96,blindBids=[3,2],deposits=[2,2],revealedBids=[2,1],secrets=[1,1]}++
+1`{bidder=1,balance=96,blindBids=[3,3],deposits=[2,2],revealedBids=[2,1],secrets=[1,2]}++
+1`{bidder=1,balance=96,blindBids=[4,2],deposits=[2,2],revealedBids=[2,1],secrets=[2,1]}++
+1`{bidder=1,balance=96,blindBids=[4,3],deposits=[2,2],revealedBids=[2,1],secrets=[2,2]}++
+1`{bidder=1,balance=97,blindBids=[],deposits=[],revealedBids=[],secrets=[]}++
+1`{bidder=1,balance=97,blindBids=[3,2],deposits=[1,2],revealedBids=[2,1],secrets=[1,1]}++
+1`{bidder=1,balance=97,blindBids=[3,2],deposits=[2,1],revealedBids=[2,1],secrets=[1,1]}++
+1`{bidder=1,balance=97,blindBids=[3,3],deposits=[1,2],revealedBids=[2,1],secrets=[1,2]}++
+1`{bidder=1,balance=97,blindBids=[3,3],deposits=[2,1],revealedBids=[2,1],secrets=[1,2]}++
+1`{bidder=1,balance=97,blindBids=[4,2],deposits=[1,2],revealedBids=[2,1],secrets=[2,1]}++
+1`{bidder=1,balance=97,blindBids=[4,2],deposits=[2,1],revealedBids=[2,1],secrets=[2,1]}++
+1`{bidder=1,balance=97,blindBids=[4,3],deposits=[1,2],revealedBids=[2,1],secrets=[2,2]}++
+1`{bidder=1,balance=97,blindBids=[4,3],deposits=[2,1],revealedBids=[2,1],secrets=[2,2]}++
+1`{bidder=1,balance=98,blindBids=[],deposits=[],revealedBids=[],secrets=[]}++
+1`{bidder=1,balance=98,blindBids=[2],deposits=[2],revealedBids=[1],secrets=[1]}++
+1`{bidder=1,balance=98,blindBids=[3],deposits=[2],revealedBids=[1],secrets=[2]}++
+1`{bidder=1,balance=98,blindBids=[3],deposits=[2],revealedBids=[2],secrets=[1]}++
+1`{bidder=1,balance=98,blindBids=[3,2],deposits=[1,1],revealedBids=[2,1],secrets=[1,1]}++
+1`{bidder=1,balance=98,blindBids=[3,3],deposits=[1,1],revealedBids=[2,1],secrets=[1,2]}++
+1`{bidder=1,balance=98,blindBids=[4],deposits=[2],revealedBids=[2],secrets=[2]}++
+1`{bidder=1,balance=98,blindBids=[4,2],deposits=[1,1],revealedBids=[2,1],secrets=[2,1]}++
+1`{bidder=1,balance=98,blindBids=[4,3],deposits=[1,1],revealedBids=[2,1],secrets=[2,2]}++
+1`{bidder=1,balance=99,blindBids=[],deposits=[],revealedBids=[],secrets=[]}++
+1`{bidder=1,balance=99,blindBids=[2],deposits=[1],revealedBids=[1],secrets=[1]}++
+1`{bidder=1,balance=99,blindBids=[3],deposits=[1],revealedBids=[1],secrets=[2]}++
+1`{bidder=1,balance=99,blindBids=[3],deposits=[1],revealedBids=[2],secrets=[1]}++
+1`{bidder=1,balance=99,blindBids=[4],deposits=[1],revealedBids=[2],secrets=[2]}
+     Complete_System'W2 1
+                         1`{bidder=1,balance=96,blindBids=[3,2],deposits=[2,2],revealedBids=[2,1],secrets=[1,1]}++
+1`{bidder=1,balance=96,blindBids=[3,3],deposits=[2,2],revealedBids=[2,1],secrets=[1,2]}++
+1`{bidder=1,balance=96,blindBids=[4,2],deposits=[2,2],revealedBids=[2,1],secrets=[2,1]}++
+1`{bidder=1,balance=96,blindBids=[4,3],deposits=[2,2],revealedBids=[2,1],secrets=[2,2]}++
+1`{bidder=1,balance=97,blindBids=[],deposits=[],revealedBids=[],secrets=[]}++
+1`{bidder=1,balance=97,blindBids=[3,2],deposits=[1,2],revealedBids=[2,1],secrets=[1,1]}++
+1`{bidder=1,balance=97,blindBids=[3,2],deposits=[2,1],revealedBids=[2,1],secrets=[1,1]}++
+1`{bidder=1,balance=97,blindBids=[3,3],deposits=[1,2],revealedBids=[2,1],secrets=[1,2]}++
+1`{bidder=1,balance=97,blindBids=[3,3],deposits=[2,1],revealedBids=[2,1],secrets=[1,2]}++
+1`{bidder=1,balance=97,blindBids=[4,2],deposits=[1,2],revealedBids=[2,1],secrets=[2,1]}++
+1`{bidder=1,balance=97,blindBids=[4,2],deposits=[2,1],revealedBids=[2,1],secrets=[2,1]}++
+1`{bidder=1,balance=97,blindBids=[4,3],deposits=[1,2],revealedBids=[2,1],secrets=[2,2]}++
+1`{bidder=1,balance=97,blindBids=[4,3],deposits=[2,1],revealedBids=[2,1],secrets=[2,2]}++
+1`{bidder=1,balance=98,blindBids=[],deposits=[],revealedBids=[],secrets=[]}++
+1`{bidder=1,balance=98,blindBids=[2],deposits=[2],revealedBids=[1],secrets=[1]}++
+1`{bidder=1,balance=98,blindBids=[3],deposits=[2],revealedBids=[1],secrets=[2]}++
+1`{bidder=1,balance=98,blindBids=[3],deposits=[2],revealedBids=[2],secrets=[1]}++
+1`{bidder=1,balance=98,blindBids=[3,2],deposits=[1,1],revealedBids=[2,1],secrets=[1,1]}++
+1`{bidder=1,balance=98,blindBids=[3,3],deposits=[1,1],revealedBids=[2,1],secrets=[1,2]}++
+1`{bidder=1,balance=98,blindBids=[4],deposits=[2],revealedBids=[2],secrets=[2]}++
+1`{bidder=1,balance=98,blindBids=[4,2],deposits=[1,1],revealedBids=[2,1],secrets=[2,1]}++
+1`{bidder=1,balance=98,blindBids=[4,3],deposits=[1,1],revealedBids=[2,1],secrets=[2,2]}++
+1`{bidder=1,balance=99,blindBids=[],deposits=[],revealedBids=[],secrets=[]}++
+1`{bidder=1,balance=99,blindBids=[2],deposits=[1],revealedBids=[1],secrets=[1]}++
+1`{bidder=1,balance=99,blindBids=[3],deposits=[1],revealedBids=[1],secrets=[2]}++
+1`{bidder=1,balance=99,blindBids=[3],deposits=[1],revealedBids=[2],secrets=[1]}++
+1`{bidder=1,balance=99,blindBids=[4],deposits=[1],revealedBids=[2],secrets=[2]}
+     Complete_System'bid_Parameters 1
+                         1`{sender={adr=1,balance=98},value=1,blindedBid=3}++
+1`{sender={adr=1,balance=98},value=1,blindedBid=4}++
+1`{sender={adr=1,balance=98},value=2,blindedBid=3}++
+1`{sender={adr=1,balance=98},value=2,blindedBid=4}++
+1`{sender={adr=1,balance=99},value=1,blindedBid=3}++
+1`{sender={adr=1,balance=99},value=1,blindedBid=4}++
+1`{sender={adr=1,balance=99},value=2,blindedBid=3}++
+1`{sender={adr=1,balance=99},value=2,blindedBid=4}++
+1`{sender={adr=1,balance=100},value=1,blindedBid=2}++
+1`{sender={adr=1,balance=100},value=1,blindedBid=3}++
+1`{sender={adr=1,balance=100},value=1,blindedBid=4}++
+1`{sender={adr=1,balance=100},value=2,blindedBid=2}++
+1`{sender={adr=1,balance=100},value=2,blindedBid=3}++
+1`{sender={adr=1,balance=100},value=2,blindedBid=4}
+     Complete_System'reveal_Parameters 1
+                         1`{sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,1]}++
+1`{sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,2]}++
+1`{sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,1]}++
+1`{sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,2]}++
+1`{sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}++
+1`{sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}++
+1`{sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}++
+1`{sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}++
+1`{sender={adr=1,balance=98},value=0,values=[1],secrets=[1]}++
+1`{sender={adr=1,balance=98},value=0,values=[1],secrets=[2]}++
+1`{sender={adr=1,balance=98},value=0,values=[2],secrets=[1]}++
+1`{sender={adr=1,balance=98},value=0,values=[2],secrets=[2]}++
+1`{sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,1]}++
+1`{sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,2]}++
+1`{sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,1]}++
+1`{sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,2]}++
+1`{sender={adr=1,balance=99},value=0,values=[1],secrets=[1]}++
+1`{sender={adr=1,balance=99},value=0,values=[1],secrets=[2]}++
+1`{sender={adr=1,balance=99},value=0,values=[2],secrets=[1]}++
+1`{sender={adr=1,balance=99},value=0,values=[2],secrets=[2]}
+     Complete_System'withdraw_Parameters 1
+                         1`{sender={adr=1,balance=96},value=0}++
+1`{sender={adr=1,balance=97},value=0}++
+1`{sender={adr=1,balance=98},value=0}++
+1`{sender={adr=1,balance=99},value=0}
+     bid'p1 1            1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=100},value=1,blindedBid=2}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=100},value=1,blindedBid=3}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=100},value=1,blindedBid=4}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=100},value=2,blindedBid=2}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=99},value=1,blindedBid=3}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=99},value=1,blindedBid=3}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=100},value=2,blindedBid=3}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=99},value=1,blindedBid=4}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=99},value=1,blindedBid=4}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=100},value=2,blindedBid=4}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=98},value=1,blindedBid=3}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=98},value=1,blindedBid=3}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=99},value=2,blindedBid=3}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=99},value=2,blindedBid=3}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=98},value=1,blindedBid=4}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=98},value=1,blindedBid=4}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=99},value=2,blindedBid=4}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=99},value=2,blindedBid=4}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=98},value=2,blindedBid=3}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=98},value=2,blindedBid=3}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=98},value=2,blindedBid=4}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},bidPar={sender={adr=1,balance=98},value=2,blindedBid=4}}
+     reveal'T 1          1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=99},value=0,values=[1],secrets=[1]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[2],secrets=[1]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=99},value=0,values=[1],secrets=[2]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[2],secrets=[2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=98},value=0,values=[1],secrets=[1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=98},value=0,values=[1],secrets=[2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=98},value=0,values=[2],secrets=[1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=98},value=0,values=[2],secrets=[2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,2]}}
+     reveal'T2 1         1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[1],secrets=[1]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[1],secrets=[2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[1],secrets=[1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[1],secrets=[2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2],secrets=[1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2],secrets=[2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,2]}}
+     reveal'bid 1        1`{blindBid=2,deposit=1}++
+1`{blindBid=2,deposit=2}++
+2`{blindBid=3,deposit=1}++
+2`{blindBid=3,deposit=2}++
+1`{blindBid=4,deposit=1}++
+1`{blindBid=4,deposit=2}
+     reveal'c 1          1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[1],secrets=[1]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[1],secrets=[2]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[2],secrets=[1]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[2],secrets=[2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[1],secrets=[1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[1],secrets=[2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2],secrets=[1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2],secrets=[2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,2]}}
+     reveal'i 1          1`0++
+1`1++
+1`2
+     reveal'init 1       1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[1],secrets=[1]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=99},value=0,values=[1],secrets=[1]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[1],secrets=[2]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[2],secrets=[1]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=99},value=0,values=[1],secrets=[2]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[2],secrets=[2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[1],secrets=[1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=98},value=0,values=[1],secrets=[1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[1],secrets=[2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2],secrets=[1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=98},value=0,values=[1],secrets=[2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=98},value=0,values=[2],secrets=[1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2],secrets=[2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=98},value=0,values=[2],secrets=[2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,2]}}
+     reveal'p1 1         1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[1],secrets=[1]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[1],secrets=[2]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[2],secrets=[1]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[2],secrets=[2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[1],secrets=[1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[1],secrets=[2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2],secrets=[1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2],secrets=[2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,2]}}
+     reveal'p11 1        1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[1],secrets=[1]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[1],secrets=[2]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[2],secrets=[1]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[2],secrets=[2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[1],secrets=[1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[1],secrets=[2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2],secrets=[1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2],secrets=[2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,2]}}
+     reveal'p12 1        1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[1],secrets=[1]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[1],secrets=[2]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[2],secrets=[1]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=99},value=0,values=[2],secrets=[2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[1],secrets=[1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[1],secrets=[2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2],secrets=[1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=98},value=0,values=[2],secrets=[2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,2]}}
+     reveal'p21 1        1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=1},revealPar={sender={adr=1,balance=99},value=0,values=[1],secrets=[1]}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=1},revealPar={sender={adr=1,balance=99},value=0,values=[1],secrets=[2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=1},revealPar={sender={adr=1,balance=98},value=0,values=[1],secrets=[1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=1},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=2},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=1},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=2},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=1},revealPar={sender={adr=1,balance=98},value=0,values=[1],secrets=[2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=2},revealPar={sender={adr=1,balance=98},value=0,values=[2],secrets=[1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=1},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=2},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=1},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=2},revealPar={sender={adr=1,balance=98},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=2},revealPar={sender={adr=1,balance=98},value=0,values=[2],secrets=[2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=1},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=1},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=1},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=1},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=2},revealPar={sender={adr=1,balance=97},value=0,values=[2,1],secrets=[2,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[1,2]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,1]}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=2},revealPar={sender={adr=1,balance=96},value=0,values=[2,1],secrets=[2,2]}}
+     reveal'vs 1         1`{value=1,secret=1}++
+1`{value=1,secret=2}++
+1`{value=2,secret=1}++
+1`{value=2,secret=2}
+     withdraw'F2 1       1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=96},value=0}}
+     withdraw'T 1        1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=96},value=0}}
+     withdraw'T2 1       1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=96},value=0}}
+     withdraw'amount 1   1`1++
+1`2++
+1`3++
+1`4
+     withdraw'p1 1       1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=96},value=0}}
+     withdraw'p11 1      1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=96},value=0}}
+     withdraw'p2 1       1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=1}],pendingReturns=1}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1}],pendingReturns=1}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=1,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1}],pendingReturns=1}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=99},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=2,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=1}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=2,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2}],pendingReturns=2}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=98},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=2,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=1},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=1},{blindBid=3,deposit=2}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=3,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=1}],pendingReturns=3}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=97},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=3,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=2,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=0,highestBid=0},withdrawPar={sender={adr=1,balance=96},value=0}}++
+1`{state={contractBalance=4,receivedBids=[{bidder=1,bids=[{blindBid=4,deposit=2},{blindBid=3,deposit=2}],pendingReturns=4}],highestBidder=1,highestBid=2},withdrawPar={sender={adr=1,balance=96},value=0}}
+
+  Best Lower Multi-set Bounds
+     Complete_System'ABB 1
+                         empty
+     Complete_System'B1 1
+                         empty
+     Complete_System'Bidders 1
+                         empty
+     Complete_System'Bidders2 1
+                         empty
+     Complete_System'F 1 empty
+     Complete_System'Last_Bids_Log 1
+                         empty
+     Complete_System'P01 1
+                         empty
+     Complete_System'P02 1
+                         empty
+     Complete_System'P11 1
+                         empty
+     Complete_System'P12 1
+                         empty
+     Complete_System'P21 1
+                         empty
+     Complete_System'P22 1
+                         empty
+     Complete_System'Possible_Bids 1
+                         1`1++
+1`2
+     Complete_System'Possible_Deposits 1
+                         1`1++
+1`2
+     Complete_System'Possible_Secret_Keys 1
+                         1`1++
+1`2
+     Complete_System'R1 1
+                         empty
+     Complete_System'R2 1
+                         empty
+     Complete_System'RB 1
+                         empty
+     Complete_System'T 1 empty
+     Complete_System'W1 1
+                         empty
+     Complete_System'W2 1
+                         empty
+     Complete_System'bid_Parameters 1
+                         empty
+     Complete_System'reveal_Parameters 1
+                         empty
+     Complete_System'withdraw_Parameters 1
+                         empty
+     bid'p1 1            empty
+     reveal'T 1          empty
+     reveal'T2 1         empty
+     reveal'bid 1        empty
+     reveal'c 1          empty
+     reveal'i 1          empty
+     reveal'init 1       empty
+     reveal'p1 1         empty
+     reveal'p11 1        empty
+     reveal'p12 1        empty
+     reveal'p21 1        empty
+     reveal'vs 1         empty
+     withdraw'F2 1       empty
+     withdraw'T 1        empty
+     withdraw'T2 1       empty
+     withdraw'amount 1   empty
+     withdraw'p1 1       empty
+     withdraw'p11 1      empty
+     withdraw'p2 1       empty
+
+
+ Home Properties
+------------------------------------------------------------------------
+
+  Home Markings
+     None
+
+
+ Liveness Properties
+------------------------------------------------------------------------
+
+  Dead Markings
+     49 [999,990,989,980,979,...]
+
+  Dead Transition Instances
+     None
+
+  Live Transition Instances
+     None
+
+
+ Fairness Properties
+------------------------------------------------------------------------
+     No infinite occurrence sequences.
