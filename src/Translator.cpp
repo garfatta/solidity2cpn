@@ -1,12 +1,12 @@
-#include "include/Translator.hpp"
-#include "include/Utils.hpp"
-#include "include/ASTNodes.hpp"
+#include "Translator.hpp"
+#include "Utils.hpp"
+#include "ASTNodes.hpp"
 
 namespace SOL2CPN {
 
 NetNodePtr Translator::translate() {
     net = std::make_shared<NetNode>();
-    
+
     for (int i = 0; i < rootNode->num_fields(); i++)
             if (rootNode->get_field(i)->get_node_type() == NodeTypeContractDefinition) {
                 //create the net
@@ -14,7 +14,7 @@ NetNodePtr Translator::translate() {
                 net->set_name(contractNode->get_name());
                 generatePredefinedColors();
                 generateUserBehaviourColors();
-                
+
                 for (int i = 0; i < contractNode->num_members(); i++){
                     auto member = contractNode->get_member(i);
                     if (member->get_node_type() == NodeTypeStructDefinition) {
@@ -30,7 +30,7 @@ NetNodePtr Translator::translate() {
                     else if (member->get_node_type() == NodeTypeFunctionDefinition) {
                         auto func = std::static_pointer_cast<FunctionDefinitionNode>(member);
                         //parameters are handled as variable declarations..
-                        
+
                     }
                 }
             }
@@ -42,7 +42,7 @@ void Translator::generatePredefinedColors() {
     address->set_name("ADDRESS");
     address->set_typeDef("range 0 .. 100");
     net->add_color(address);
-    
+
     ColorNodePtr eth (new ColorNode());
     eth->set_name("ETH");
     eth->set_typeDef("range 0 .. 1000");
@@ -119,7 +119,7 @@ void Translator::generateUserBehaviourColors() {
 StructColorNodePtr Translator::translateStruct(StructDefinitionNodePtr struct_node) {
     StructColorNodePtr struct_color = std::make_shared<StructColorNode>();
     struct_color->set_name(struct_node->get_name());
-            
+
     for (int i = 0; i < struct_node->num_fields(); i++) {
         VariableDeclarationNodePtr variable = std::static_pointer_cast<VariableDeclarationNode>(struct_node->get_field(i));
         ComponentNodePtr component = std::make_shared<ComponentNode>();

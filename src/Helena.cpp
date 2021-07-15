@@ -1,4 +1,4 @@
-#include "include/Helena.hpp"
+#include "Helena.hpp"
 
 namespace SOL2CPN {
 
@@ -36,7 +36,7 @@ std::string NetNode::source_code() {
             if (it != param_nodes.end()-1)
                 result << ", ";
         }
-        result << ")";        
+        result << ")";
     }
     result << " {\n";
     for (auto it = lna_nodes.begin(); it != lna_nodes.end(); ++it) {
@@ -286,7 +286,7 @@ std::string FunctionNode::source_code() {
         result += " -> " + returnType;
     if (body != "")
         result += "{\n" + body + "}\n}";
-    else 
+    else
         result += ";\n";
     return result;
 }

@@ -1,4 +1,4 @@
-#include "include/ASTVisitor.hpp"
+#include "ASTVisitor.hpp"
 
 namespace SOL2CPN {
 

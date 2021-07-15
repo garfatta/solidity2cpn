@@ -1,5 +1,5 @@
-#ifndef SOL2CPN_UTILS_H_
-#define SOL2CPN__UTILS_H_
+#ifndef INCLUDE_UTILS_H_
+#define INCLUDE_UTILS_H_
 
 #include <algorithm>
 #include <cstdlib>
@@ -45,4 +45,4 @@ namespace Utils {
 }
 }
 
-#endif //SOL2CPN_UTILS_H_
+#endif //INCLUDE_UTILS_H_

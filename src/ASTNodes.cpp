@@ -1,10 +1,10 @@
 // Copyright (c) 2019 chao
-// 
+//
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
-#include "include/ASTNodes.hpp"
-#include "include/ASTVisitor.hpp"
+#include "ASTNodes.hpp"
+#include "ASTVisitor.hpp"
 
 namespace SOL2CPN {
 
@@ -493,8 +493,8 @@ std::string BinaryOperationNode::source_code(Indentation& _indentation) {
     visit(this);
     Indentation empty_indentation(0);
     std::string result = text_before + _indentation
-                        + left_hand_operand->source_code(empty_indentation) 
-                        + " " + op + " " 
+                        + left_hand_operand->source_code(empty_indentation)
+                        + " " + op + " "
                         + right_hand_operand->source_code(empty_indentation)
                         + text_after;
     return result;
@@ -517,7 +517,7 @@ void BinaryOperationNode::set_operator(const std::string& _operator) {
 }
 
 ASTNodePtr BinaryOperationNode::get_left_hand_operand() const {
-    return left_hand_operand;    
+    return left_hand_operand;
 }
 
 ASTNodePtr BinaryOperationNode::get_right_hand_operand() const {
@@ -1033,7 +1033,7 @@ std::string IfStatementNode::source_code(Indentation& _indentation) {
     if (if_else != nullptr) result = result + " else " + if_else->source_code(_indentation) + "\n";
     else result = result  + "\n";
     result = result + text_after;
-    return result; 
+    return result;
 }
 
 void IfStatementNode::set_condition(const ASTNodePtr& _condition){
@@ -1072,7 +1072,7 @@ void DoWhileStatementNode::set_condition(const ASTNodePtr& _condition){
 }
 
 ASTNodePtr DoWhileStatementNode::get_condition() const{
-    return condition;    
+    return condition;
 }
 
 void DoWhileStatementNode::set_loop_body(const ASTNodePtr& _loop_body){
@@ -1095,7 +1095,7 @@ void WhileStatementNode::set_condition(const ASTNodePtr& _condition){
 }
 
 ASTNodePtr WhileStatementNode::get_condition() const{
-    return condition;    
+    return condition;
 }
 
 void WhileStatementNode::set_loop_body(const ASTNodePtr& _loop_body){
@@ -1133,8 +1133,8 @@ std::string ForStatementNode::source_code(Indentation& _indentation) {
         increment_str = increment_str.substr(0, increment_str_len);
     }
 
-    std::string result = text_before 
-                         + _indentation + "for (" + init_str + condition_str + increment_str + ") " 
+    std::string result = text_before
+                         + _indentation + "for (" + init_str + condition_str + increment_str + ") "
                          + body->source_code(_indentation) + "\n"
                          + text_after;
     return result;
@@ -1176,8 +1176,8 @@ std::string ConditionalNode::source_code(Indentation& _indentation) {
     visit(this);
     Indentation empty_indentation(0);
     std::string result = text_before
-                         + condition->source_code(empty_indentation) 
-                         + " ? " + yes->source_code(empty_indentation) 
+                         + condition->source_code(empty_indentation)
+                         + " ? " + yes->source_code(empty_indentation)
                          + ", " + no->source_code(empty_indentation)
                          + text_after;
     return result;
@@ -1211,8 +1211,8 @@ std::string AssignmentNode::source_code(Indentation& _indentation) {
     visit(this);
     Indentation empty_indentation(0);
     std::string result = text_before
-                         + left_hand_operand->source_code(empty_indentation) 
-                         + " " + op + " " 
+                         + left_hand_operand->source_code(empty_indentation)
+                         + " " + op + " "
                          + right_hand_operand->source_code(empty_indentation)
                          + text_after;
     return result;
@@ -1227,7 +1227,7 @@ void AssignmentNode::set_operator(const std::string& _operator) {
 }
 
 ASTNodePtr AssignmentNode::get_left_hand_operand() const {
-    return left_hand_operand;    
+    return left_hand_operand;
 }
 
 ASTNodePtr AssignmentNode::get_right_hand_operand() const {
@@ -1339,8 +1339,8 @@ void PlaceHolderStatement::set_placeholder(const std::string& _placeholder) {
 std::string MappingNode::source_code(Indentation& _indentation) {
     visit(this);
     Indentation empty_indentation(0);
-    std::string result = text_before + _indentation 
-                         + "mapping(" + key_type->source_code(empty_indentation) 
+    std::string result = text_before + _indentation
+                         + "mapping(" + key_type->source_code(empty_indentation)
                          + " => " + value_type->source_code(empty_indentation) + ")"
                          + text_after;
     return result;

@@ -10,8 +10,8 @@
 #include <string>
 
 */
+#include <json.hpp>
 #include "Helena.hpp"
-#include "nlohmann/json.hpp"
 #include "ASTNodes.hpp"
 
 namespace SOL2CPN {

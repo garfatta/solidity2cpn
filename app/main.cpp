@@ -2,16 +2,18 @@
 #include <iostream>
 #include <sstream>
 
-#include "include/nlohmann/json.hpp"
-#include "include/ASTAnalyser.hpp"
-#include "include/Constants.hpp"
-#include "include/Utils.hpp"
+#include <CLI11.hpp>
+#include <json.hpp>
 
-#include "include/Helena.hpp"
-#include "include/Translator.hpp"
+#include "ASTAnalyser.hpp"
+#include "Constants.hpp"
+#include "Utils.hpp"
+
+#include "Helena.hpp"
+#include "Translator.hpp"
 
 int main(int argc, char** argv){
-    
+
     std::string ast_file_name = "./test_files/blindAuction.ast";
     std::string ast_json_file_name = "./test_files/blindAuction.json";
     std::string output_file_name = "./test_files/blindAuction_generated.lna";
@@ -59,8 +61,8 @@ int main(int argc, char** argv){
 
         SOL2CPN::NetNodePtr net_node = nettranslator.translate();
 
-       
-     
+
+
         std::string new_source = net_node->source_code();
         if (output_file_name != "") {
             std::ofstream output_file_stream(output_file_name);
@@ -74,7 +76,7 @@ int main(int argc, char** argv){
 
 
     }
-    
+
     ast_json_file_stream.close();
 
     exit(SOL2CPN::ErrorCode::SUCCESS);

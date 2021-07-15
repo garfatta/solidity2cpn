@@ -9,7 +9,7 @@
 #include <sstream>
 #include <string>
 
-#include "nlohmann/json.hpp"
+#include <json.hpp>
 
 #include "Utils.hpp"
 #include "ASTNodes.hpp"
