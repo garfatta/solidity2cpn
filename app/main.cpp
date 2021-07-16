@@ -26,6 +26,12 @@ int main(int argc, char** argv){
         ->required()
         ->check(CLI::ExistingFile);
 
+    std::string context_filename;
+    app.add_option("--context", context_filename, "Context file");
+
+    std::string property_filename;
+    app.add_option("--property", property_filename, "Property file");
+
     std::string output_file_name;
     app.add_option("--output", output_file_name, "Output file")->default_val("output.lna");
 
