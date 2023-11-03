@@ -37,20 +37,22 @@ int main(int argc, char** argv){
 
     CLI11_PARSE(app, argc, argv);
 
-    std::ifstream ast_text_file_stream(ast_file_name);
-    std::ifstream ast_json_file_stream(ast_json_file_name);
-
+    // string buffers
     std::stringstream ast_text_stream;
-
     std::string new_line;
-    std::string sol_name;
-    std::string ast_json_content;
 
+    std::ifstream ast_text_file_stream(ast_file_name);
     while (getline(ast_text_file_stream, new_line)) {
         ast_text_stream << new_line << "\n";
     }
+    ast_text_file_stream.close();
 
+    // TODO: maybe it can be refactored
+    std::string sol_name;
+    std::string ast_json_content;
+    std::ifstream ast_json_file_stream(ast_json_file_name);
     while (getline(ast_json_file_stream, new_line)) {
+        // Get the smart contract name
         if (new_line.find(".sol =======") != std::string::npos) {
             sol_name = SOL2CPN::Utils::substr_by_edge(new_line, "======= ", " =======");
             break;
@@ -66,32 +68,31 @@ int main(int argc, char** argv){
             ast_json_content = "";
         }
     }
+    ast_json_file_stream.close();
 
     if (ast_json_content != "") {
+        // parse AST file into JSON format
         nlohmann::json ast_json = nlohmann::json::parse(ast_json_content);
-        SOL2CPN::ASTAnalyser ast_analyser(ast_text_stream, ast_json, true, sol_name, "");
 
+        // analyse AST
+        SOL2CPN::ASTAnalyser ast_analyser(ast_text_stream, ast_json, true, sol_name, "");
         SOL2CPN::RootNodePtr root_node = ast_analyser.analyse();
 
+        // translate smart contrat AST into CPN
         SOL2CPN::Translator nettranslator(root_node);
-
         SOL2CPN::NetNodePtr net_node = nettranslator.translate();
 
-
-
+        // get Helena code of the CPN
         std::string new_source = net_node->source_code();
 
-        if (output_file_name != "") {
-            std::ofstream output_file_stream(output_file_name);
-            output_file_stream << new_source;
-            output_file_stream.close();
-            std::cout << "lna file generated: SUCESS" << std::endl;
-        } else {
-            std::cout << "lna file generated: FAILURE" << std::endl;
-        }
+        // save output to a file
+        std::ofstream output_file_stream(output_file_name);
+        output_file_stream << new_source;
+        output_file_stream.close();
+
+        std::cout << "lna file generated: SUCESS" << std::endl;
     }
 
-    ast_json_file_stream.close();
 
     exit(SOL2CPN::ErrorCode::SUCCESS);
 
