@@ -11,8 +11,9 @@ Solidity smart contracts using Coloured Petri Nets.
 ├── app            # folder containing the CLI's source code of the tool
 ├── case_studies
 │   ├── models     # folder containing the CPN models of the use cases, designed using CPN Tools
-│   └── reports    # folder containing the state space analysis carried out by CPN Tools for the use cases
-├── docs           # folder containing extended versions of the published papers
+│   └── logs       # folder containing the state space analysis carried out by CPN Tools for the use cases
+├── docs           # folder containing the documentation of the tool
+│   └── reports    # folder containing extended versions of the published papers
 ├── include        # folder containing the headers of the code
 ├── src            # folder containing the source code of the proposed Solidity-to-CPN transformation
 ├── tests          # folder containing unit tests of the tool
