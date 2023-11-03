@@ -19,3 +19,20 @@ Solidity smart contracts using Coloured Petri Nets.
 ├── tests          # folder containing unit tests of the tool
 └── third-party    # folder containing the external libraries used in the tool
 ```
+
+## Build
+
+The dependencies for this tool are:
+
+- `cmake >= 3.12`
+- `doxygen`
+- `g++`
+- `graphviz`
+
+The tool can be compiled as follows:
+
+```
+mkdir build && cd build
+cmake -DBUILD_DOCS=ON ..
+cmake --build . --target install
+```

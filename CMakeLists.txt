@@ -9,19 +9,14 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-# Third-party libraries PATH
-set(THIRD_PARTY_INCLUDE_DIR ${CMAKE_SOURCE_DIR}/third-party)
-
-# JSON library
-add_library(json INTERFACE)
-target_include_directories(json INTERFACE "${THIRD_PARTY_INCLUDE_DIR}/nlohmann")
-
-# CLI library
-add_library(cli11 INTERFACE)
-target_include_directories(cli11 INTERFACE "${THIRD_PARTY_INCLUDE_DIR}/cli11")
+# Third-party libraries
+add_subdirectory(third-party)
 
 # Source folder
 add_subdirectory(src)
 
 # The executable code is here
 add_subdirectory(app)
+
+# installation
+install(TARGETS ${PROJECT_NAME} DESTINATION ${PROJECT_SOURCE_DIR}/bin)

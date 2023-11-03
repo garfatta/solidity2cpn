@@ -1,2 +1,2 @@
-add_executable(solidity2CPN main.cpp)
-target_link_libraries(solidity2CPN PRIVATE library json cli11)
+add_executable(${PROJECT_NAME} main.cpp)
+target_link_libraries(${PROJECT_NAME} PRIVATE library json cli11)
