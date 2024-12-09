@@ -3,8 +3,9 @@
 This repository is dedicated to our on-going work on the formal verification of
 Solidity smart contracts using Coloured Petri Nets.
 
-## Folder structure
+**Note: This repository has been moved to <https://depot.lipn.univ-paris13.fr/soliditycpn/solidity2cpn>**
 
+## Folder structure
 
 ```bash
 .
@@ -36,3 +37,4 @@ mkdir build && cd build
 cmake -DBUILD_DOCS=ON ..
 cmake --build . --target install
 ```
+
